@@ -10,6 +10,7 @@ User can view products, view their cart, add product to cart, remove product fro
 * Coroutines
 * Hilt
 * MVVM Architecture
+* Repository Architecture
 * Retrofit
 * Room
 * Flow and LiveData
