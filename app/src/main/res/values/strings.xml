@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Storedei</string>
+    <string name="welcome">Welcome!</string>
+    <string name="cart">Cart</string>
+    <string name="rating_count">(%1d)</string>
+    <string name="menu_add_to_cart">Add to cart</string>
+    <string name="menu_remove_from_cart">Remove from cart</string>
+    <string name="menu_download_image">Download Image</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menuAddToCart"
+        android:title="@string/menu_add_to_cart"/>
+
+    <item android:id="@+id/menuRemoveFromCart"
+        android:title="@string/menu_remove_from_cart"/>
+
+    <item android:id="@+id/menuDownloadImage"
+        android:title="@string/menu_download_image"/>
+
+</menu>
