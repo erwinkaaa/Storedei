@@ -32,8 +32,6 @@ class DownloadWorker(
         val file = File(externalFilesDir, "${System.currentTimeMillis()}.png")
         val url = inputData.getString("url")
         withContext(Dispatchers.IO) {
-//            val bitmapDeferred =
-//                async { Glide.with(appContext).asBitmap().load(url).submit().get() }
             val bitmap = Glide.with(appContext).asBitmap().load(url).submit().get()
             FileOutputStream(file).use { stream ->
                 return@withContext try {
