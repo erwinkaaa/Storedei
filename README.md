@@ -21,3 +21,8 @@ User can view products, view their cart, add product to cart, remove product fro
 ## API
 https://fakestoreapi.com/
 
+## Preview
+<div>
+  <img src="screenshots/Screenshot_20220405_230822.png" height="650" width="300" >
+  <img src="screenshots/Screenshot_20220405_230854.png" height="650" width="300" >
+</div>
