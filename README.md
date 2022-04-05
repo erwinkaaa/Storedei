@@ -2,7 +2,7 @@
 
 Storedei is an Store-like application for Juara Android submission.
 
-User can see products, view their cart, add product to cart, remove product from cart, and download product image.
+User can view products, view their cart, add product to cart, remove product from cart, and download product image.
 
 ## Tech Stack
 
