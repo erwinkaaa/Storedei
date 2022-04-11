@@ -1,4 +1,4 @@
-package id.wendei.store.data.model
+package id.wendei.store.domain.model
 
 data class Category(
     val category: String = "",

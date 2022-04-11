@@ -1,7 +1,7 @@
-package id.wendei.store.data.repository
+package id.wendei.store.domain.repository
 
-import id.wendei.store.data.model.Category
-import id.wendei.store.data.model.Product
+import id.wendei.store.domain.model.Category
+import id.wendei.store.domain.model.Product
 import id.wendei.store.data.remote.util.Resource
 import kotlinx.coroutines.flow.Flow
 

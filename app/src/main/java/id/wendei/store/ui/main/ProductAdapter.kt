@@ -6,7 +6,7 @@ import android.view.ViewGroup
 import androidx.appcompat.widget.PopupMenu
 import androidx.recyclerview.widget.RecyclerView
 import id.wendei.store.R
-import id.wendei.store.data.model.Product
+import id.wendei.store.domain.model.Product
 import id.wendei.store.databinding.ItemProductBinding
 import id.wendei.store.util.load
 

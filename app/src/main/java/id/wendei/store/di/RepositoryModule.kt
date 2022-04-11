@@ -6,7 +6,7 @@ import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
 import id.wendei.store.data.local.room.StoreDao
 import id.wendei.store.data.remote.api.StoreService
-import id.wendei.store.data.repository.StoreRepository
+import id.wendei.store.domain.repository.StoreRepository
 import id.wendei.store.data.repository.StoreRepositoryImpl
 import javax.inject.Singleton
 

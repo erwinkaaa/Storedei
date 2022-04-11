@@ -1,4 +1,4 @@
-package id.wendei.store.data.model
+package id.wendei.store.domain.model
 
 data class Product(
     val id: Int,

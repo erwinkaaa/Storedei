@@ -1,7 +1,7 @@
 package id.wendei.store.data.local.mapper
 
 import id.wendei.store.data.local.entity.ProductEntity
-import id.wendei.store.data.model.Product
+import id.wendei.store.domain.model.Product
 
 fun ProductEntity.toModel(): Product = Product(
     id = id,

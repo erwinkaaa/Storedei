@@ -1,7 +1,7 @@
 package id.wendei.store.data.remote.mapper
 
-import id.wendei.store.data.model.Product
-import id.wendei.store.data.model.Rating
+import id.wendei.store.domain.model.Product
+import id.wendei.store.domain.model.Rating
 import id.wendei.store.data.remote.response.ProductResponse
 import id.wendei.store.data.remote.response.RatingResponse
 

@@ -3,7 +3,7 @@ package id.wendei.store.data.local.entity
 import androidx.room.Embedded
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import id.wendei.store.data.model.Rating
+import id.wendei.store.domain.model.Rating
 
 @Entity(tableName = "product")
 data class ProductEntity(

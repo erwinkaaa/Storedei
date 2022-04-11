@@ -5,10 +5,10 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
 import dagger.hilt.android.lifecycle.HiltViewModel
 import id.wendei.store.base.BaseViewModel
-import id.wendei.store.data.model.Category
-import id.wendei.store.data.model.Product
+import id.wendei.store.domain.model.Category
+import id.wendei.store.domain.model.Product
 import id.wendei.store.data.remote.util.Resource
-import id.wendei.store.data.repository.StoreRepository
+import id.wendei.store.domain.repository.StoreRepository
 import kotlinx.coroutines.async
 import kotlinx.coroutines.launch
 import javax.inject.Inject

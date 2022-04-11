@@ -4,7 +4,7 @@ import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import id.wendei.store.data.model.Category
+import id.wendei.store.domain.model.Category
 import id.wendei.store.databinding.ItemCategoryBinding
 
 class CategoryAdapter(private val onClick: (Category) -> Unit) :

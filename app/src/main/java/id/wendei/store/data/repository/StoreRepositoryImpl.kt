@@ -4,12 +4,13 @@ import id.wendei.store.data.repository.base.BaseRepository
 import id.wendei.store.data.local.mapper.toEntity
 import id.wendei.store.data.local.mapper.toModels
 import id.wendei.store.data.local.room.StoreDao
-import id.wendei.store.data.model.Category
-import id.wendei.store.data.model.Product
+import id.wendei.store.domain.model.Category
+import id.wendei.store.domain.model.Product
 import id.wendei.store.data.remote.api.StoreService
 import id.wendei.store.data.remote.mapper.toModel
 import id.wendei.store.data.remote.mapper.toModels
 import id.wendei.store.data.remote.util.Resource
+import id.wendei.store.domain.repository.StoreRepository
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.withContext
